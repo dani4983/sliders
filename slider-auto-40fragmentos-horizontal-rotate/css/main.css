@@ -33,37 +33,9 @@ img {vertical-align: middle;}
   .active {
     background-color: #717171;
   }
-  /*
-  Fading animation  Animación de desvanecimiento
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 4s;
-    animation-name: fade;
-    animation-duration: 4s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }*/
-  
-  
-
-
-
-
-/*
-.container{
-    margin: 200px 0 0 200px;
-    width: 275px;
-    height: 183px;
-    text-align: center;
-}*/
+ body{
+     background: beige;
+ }
 .img{
     position: absolute;
     z-index: 1;
@@ -662,202 +634,242 @@ img {vertical-align: middle;}
 }
 @-webkit-keyframes img20 {
     0%{visibility: visible}
-    5%{transform: rotate(360deg)}
+    5%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img20 {
     0%{visibility: visible}
-    5%{transform: rotate(360deg)}
+    5%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img19 {
     0%{visibility: visible}
-    10%{transform: rotate(360deg)}
+    10%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img19 {
     0%{visibility: visible}
-    10%{transform: rotate(360deg)}
+    10%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img18 {
     0%{visibility: visible}    
-    15%{transform: rotate(360deg)}
+    15%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img18{
     0%{visibility: visible}    
-    15%{transform: rotate(360deg)}
+    15%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img17 {
     0%{visibility: visible}    
-    20%{transform: rotate(360deg)}
+    20%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img17 {
     0%{visibility: visible}    
-    20%{transform: rotate(360deg)}
+    20%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img16 {
     0%{visibility: visible}    
-    25%{transform: rotate(360deg)}
+    25%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img16 {
     0%{visibility: visible}    
-    25%{transform: rotate(360deg)}
+    25%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img15 {
     0%{visibility: visible}    
-    30%{transform: rotate(360deg)}
+    30%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img15 {
     0%{visibility: visible}    
-    30%{transform: rotate(360deg)}
+    30%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img14 {
     0%{visibility: visible}    
-    35%{transform: rotate(360deg)}
+    35%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img14 {
     0%{visibility: visible}    
-    35%{transform: rotate(360deg)}
+    35%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img13 {
     0%{visibility: visible}    
-    40%{transform: rotate(360deg)}
+    40%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img13 {
     0%{visibility: visible}    
-    40%{transform: rotate(360deg)}
+    40%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img12 {
     0%{visibility: visible}    
-    45%{transform: rotate(360deg)}
+    45%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img12 {
     0%{visibility: visible}    
-    45%{transform: rotate(360deg)}
+    45%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img11 {
     0%{visibility: visible}    
-    50%{transform: rotate(360deg)}
+    50%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 550px}
 }
 @keyframes img11 {
     0%{visibility: visible}    
-    50%{transform: rotate(360deg)}
+    50%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img10 {
     0%{visibility: visible}    
-    55%{transform: rotate(360deg)}
+    55%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img10 {
     0%{visibility: visible}    
-    55%{transform: rotate(360deg)}
+    55%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img9 {
     0%{visibility: visible}    
-    60%{transform: rotate(360deg)}
+    60%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img9 {
     0%{visibility: visible}    
-    60%{transform: rotate(360deg)}
+    60%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img8 {
     0%{visibility: visible}    
-    65%{transform: rotate(360deg)}
+    65%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img8 {
     0%{visibility: visible}    
-    65%{transform: rotate(360deg)}
+    65%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img7 {
     0%{visibility: visible}    
-    70%{transform: rotate(360deg)}
+    70%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img7 {
     0%{visibility: visible}    
-    70%{transform: rotate(360deg)}
+    70%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img6 {
     0%{visibility: visible}    
-    75%{transform: rotate(360deg)}
+    75%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img6 {
     0%{visibility: visible}    
-    75%{transform: rotate(360deg)}
+    75%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img5 {
     0%{visibility: visible}    
-    80%{transform: rotate(360deg)}
+    80%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img5 {
     0%{visibility: visible}    
-    80%{transform: rotate(360deg)}
+    80%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img4 {
     0%{visibility: visible}    
-    85%{transform: rotate(360deg)}
+    85%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img4 {
     0%{visibility: visible}    
-    85%{transform: rotate(360deg)}
+    85%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img3 {
     0%{visibility: visible}    
-    90%{transform: rotate(360deg)}
+    90%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img3 {
     0%{visibility: visible}    
-    90%{transform: rotate(360deg)}
+    90%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img2 {
     0%{visibility: visible}    
-    95%{transform: rotate(360deg)}
+    95%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @keyframes img2 {
     0%{visibility: visible}    
-    95%{transform: rotate(360deg)}
+    95%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
    100%{margin-top: 0px}
 }
 @-webkit-keyframes img1 {
     0%{visibility: visible}    
-    100%{transform: rotate(360deg)}
+    100%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
     100%{margin-top: 0px}
 }
 @keyframes img1 {
     0%{visibility: visible}    
-    100%{transform: rotate(360deg)}
+    100%{transform: rotate(360deg);
+    transition: transform 1s linear 0.1s}
     100%{margin-top: 0px}
 }
 @-webkit-keyframes img21 {

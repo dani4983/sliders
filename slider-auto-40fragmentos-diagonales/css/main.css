@@ -27,48 +27,18 @@ img {vertical-align: middle;}
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-    margin-top: 380px;
+    margin-top: 400px;
   }
   
   .active {
     background-color: #717171;
   }
-  /*
-  Fading animation  Animación de desvanecimiento
-  .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 4s;
-    animation-name: fade;
-    animation-duration: 4s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }*/
-  
-  
-
-
-
-
-/*
-.container{
-    margin: 200px 0 0 200px;
-    width: 275px;
-    height: 183px;
-    text-align: center;
-}*/
+ body{
+     background: beige;
+ }
 .img{
     position: absolute;
     z-index: 1;
-
-    
 }
 .img1{
     clip-path: polygon(0 0, 5% 0, 0 5%, 0 0);
@@ -332,328 +302,328 @@ img {vertical-align: middle;}
 }
 .img1{
     -webkit-animation-name: img1;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img1;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img2{
     -webkit-animation-name: img2;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img2;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img3{
     -webkit-animation-name: img3;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img3;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img4{
     -webkit-animation-name: img4;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img4;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img5{
     -webkit-animation-name: img5;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img5;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img6{
     -webkit-animation-name: img6;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img6;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img7{
     -webkit-animation-name: img7;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img7;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img8{
     -webkit-animation-name: img8;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img8;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img9{
     -webkit-animation-name: img9;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img9;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img10{
     -webkit-animation-name: img10;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img10;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img11{
     -webkit-animation-name: img11;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img11;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img12{
     -webkit-animation-name: img12;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img12;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img13{
     -webkit-animation-name: img13;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img13;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img14{
     -webkit-animation-name: img14;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img14;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img15{
     -webkit-animation-name: img15;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img15;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img16{
     -webkit-animation-name: img16;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img16;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img17{
     -webkit-animation-name: img17;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img17;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img18{
     -webkit-animation-name: img18;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img18;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img19{
     -webkit-animation-name: img19;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img19;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img20{
     -webkit-animation-name: img20;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img20;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img21{
     -webkit-animation-name: img21;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img21;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img22{
     -webkit-animation-name: img22;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img22;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img23{
     -webkit-animation-name: img23;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img23;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img24{
     -webkit-animation-name: img24;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img24;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img25{
     -webkit-animation-name: img25;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img25;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img26{
     -webkit-animation-name: img26;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img26;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img27{
     -webkit-animation-name: img27;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img27;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img28{
     -webkit-animation-name: img28;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img28;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img29{
     -webkit-animation-name: img29;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img29;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img30{
     -webkit-animation-name: img30;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img30;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img31{
     -webkit-animation-name: img31;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img31;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img32{
     -webkit-animation-name: img32;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img32;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img33{
     -webkit-animation-name: img33;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img33;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img34{
     -webkit-animation-name: img34;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img34;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img35{
     -webkit-animation-name: img35;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img35;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img36{
     -webkit-animation-name: img36;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img36;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img37{
     -webkit-animation-name: img37;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img37;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img38{
     -webkit-animation-name: img38;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img38;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img39{
     -webkit-animation-name: img39;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img39;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 .img40{
     -webkit-animation-name: img40;
-    -webkit-animation-delay: 2s;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3s;
+    -webkit-animation-duration: 1s;
     animation-name: img40;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-duration: 1s;
 }
 
 @-webkit-keyframes img {
      
-   0% {visibility: hidden}
+    0% {visibility: hidden}
    
 }
 @keyframes img {
