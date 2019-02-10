@@ -11,6 +11,49 @@
         body{
             background: beige;
         }
+        .card:hover .mask{
+           /* -webkit-transform:  rotate(-10deg) scale(0.9);
+            -moz-transform:  rotate(-10deg) scale(0.9);
+            -ms-transform: rotate(-10deg) scale(0.9);
+            -o-transform:  rotate(-10deg) scale(0.9);  */
+            opacity: 0;
+            border:0px solid rgba(0,0,0,0.7);
+            visibility:hidden;
+        }
+        .card{
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            float: left;
+            border: 5px solid #fff;
+            overflow: hidden;
+            position: relative;
+            text-align: center;
+            box-shadow: 0px 0px 5px #aaa;
+            cursor: default;
+        }
+        
+        .card .mask{
+            position:absolute; /* Center the mask */
+   top:50px;
+   left:100px;
+   cursor:pointer;
+   border-radius: 50px;
+   border-width: 50px;
+   display: inline-block;
+   height: 100px;
+   width: 100px;
+   border: 50px solid rgba(0, 0, 0, 0.7);
+   box-sizing:border-box;
+   opacity:1;
+   visibility:visible;
+   transform:scale(4);
+   transition:all 0.3s ease-in-out;
+           /* filter: blur(2px);
+            filter: contrast(150%);
+            filter: brightness(.5);
+            opacity: .7;  */
+        }
 
     </style>
 </head>
@@ -23,91 +66,134 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/diagonales.png" alt="diagonales">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-auto-40fragmentos-diagonales/index.html">diagonales</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/diagonales-rotate.png" alt="diagonales-rotate">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-auto-40fragmentos-diagonales-rotate/index.html">diagonales-rotate</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/diagonales-rotateX.png" alt="diagonales-rotateX">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-auto-40fragmentos-diagonales-rotateX/index.html">diagonales-rotateX</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/diagonales-rotateY.png" alt="diagonales-rotateY">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-auto-40fragmentos-diagonales-rotateY/index.html">diagonales-rotateY</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/diagonales-scale.png" alt="diagonales-scale">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-auto-40fragmentos-diagonales-scale/index.html">diagonales-scale</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/diagonales-traslate1000.png" alt="traslate1000">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-auto-40fragmentos-diagonales-translate1000px/index.html">diagonales-translate1000px</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/40frag-horizontal-rotate.png" alt="40frag-horizontal-rotate">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-auto-40fragmentos-horizontal-rotate/index.html">horizontal-rotate-40fragmentos</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/horizontal-rotate.png" alt="horizontal-rotate">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-atomatic-rebana-horizontal-rotate/index.html">horizontal-rotate</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/rebanada-ascendente.png" alt="rebanada-ascendente">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-automatico-con-efecto-de-rebanada-ascendente/index.html">rebanada-ascendente</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/rebanada-rotate.png" alt="rebanada-rotate">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-automatico-efecto-rebanada-rotate/index.html">rebanada-rotate</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/rebanada-rotateX.png" alt="rebanada-rotateX">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-automatico-efecto-rebanada-rotateX/index.html">rebanada-rotateX</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/horizontal-rotateX-+-.png" alt="/horizontal-rotateX-+-">
+                    <div class="mask"></div>
                     <a  class="text-center text-dark"href="./slider-automatic-rebanada-horizontal-rotateX-+-/index.html">horizontal-rotateX-+-</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/c-rebanada-rotate.png" alt="c-rebanada-rotate">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-automatic-rebanada-rotate/index.html">c-rebanada-rotate</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/rebanada-rotate-+-.png" alt="rebanada-rotate-+-">
+                    <div class="mask"></div>
                     <a  class="text-center text-dark"href="./slider-automatic-rebanada-rotate-+-/index.html">rebanada-rotate-+-</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="card mb-3">
                     <img style="width: 100%" src="./img/rebanada-horizontal-rotateX.png" alt="rebanada-horizontal-rotateX">
+                    <div class="mask"></div>
                     <a class="text-center text-dark" href="./slider-automatic-rebenada-horizontal-rotateX/index.html">rebenada-horizontal-rotateX</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img style="width: 100%" src="./img/captura-sliders1.png" alt="captura-sliders1">
+                    <div class="mask"></div>
+                    <a class="text-center text-dark" href="./sliders1/index.html">translate rotate scale 1</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img style="width: 100%" src="./img/captura-sliders2.png"     alt="captura-sliders2">
+                    <div class="mask"></div>
+                    <a class="text-center text-dark"     href="./sliders2/index.html">translate rotate scale 2</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img style="width: 100%" src="./img/captura-slider3.png"         alt="captura-slider3">
+                    <div class="mask"></div>
+                    <a class="text-center text-dark" href="./slider3/index.html">scale(1, -1)</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-3">
+                    <img style="width: 100%" src="./img/captura-sliders4.png"         alt="captura-slider3">
+                    <div class="mask"></div>
+                    <a class="text-center text-dark" href="./sliders4/index.html">rotate border-radio</a>
                 </div>
             </div>
         </div>

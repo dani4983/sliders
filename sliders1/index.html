@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    
+</head>
+<body>
+    
+
+
+    <!--diapositivas automaticas-->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+                
+                    
+                <!--<img class="img" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">-->
+                <img class="img1" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">
+                <img class="img2" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">
+                <img class="img3" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">
+                <img class="img4" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">
+                <img class="img5" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">
+                <img class="img6" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">
+                <img class="img7" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">
+                <img class="img8" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">
+                <img class="img9" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">
+                <img class="img10" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">
+                <img class="img11" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">
+                <img class="img12" src="../img/foto-3.jpg" style="width:80%; margin-left: 10%">
+                        
+                
+            </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <!--<img class="img" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+-->          <img class="img1" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+          <img class="img2" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+          <img class="img3" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+          <img class="img4" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+          <img class="img5" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+          <img class="img6" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+          <img class="img7" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+          <img class="img8" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+          <img class="img9" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+          <img class="img10" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+          <img class="img11" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+          <img class="img12" src="../img/foto1.jpg" style="width:80%; margin-left: 10%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <!--<img class="img" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">-->
+          <img class="img1" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">
+          <img class="img2" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">
+          <img class="img3" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">
+          <img class="img4" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">
+          <img class="img5" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">
+          <img class="img6" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">
+          <img class="img7" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">
+          <img class="img8" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">
+          <img class="img9" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">
+          <img class="img10" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">
+          <img class="img11" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">
+          <img class="img12" src="../img/foto-2.jpg" style="width:80%; margin-left: 10%">
+        </div>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 4000);
+        
+        }
+        </script>
+        
+</body>
+</html>
